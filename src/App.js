@@ -8,7 +8,7 @@ function App() {
         <p>
           This is a test app I created to help me figure out why Heroku does not like my Portfolio site.
 
-          HEROKU BE NICE TO ME OKAY BYE NO MORE H10 ERROR THX
+          HEROKU BE NICE TO ME OKAY BYE NO MORE H10 ERROR THX BYE BYE KTHXBYE
         </p>
       </header>
     </div>
