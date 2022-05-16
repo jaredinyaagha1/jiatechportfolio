@@ -3,7 +3,7 @@ import React from 'react';
 // import View from './components/View/index.js';
 // import Footer from "./components/HeadersFooters/Footer/index.js";
 // // import './App.css';
-import Clouds1 from './assets/videos/clouds1.mp4';
+// import Clouds1 from './assets/videos/clouds1.mp4';
 function App() {
 
   // const [pages] = useState([
