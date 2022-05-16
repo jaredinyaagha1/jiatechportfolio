@@ -1,7 +1,7 @@
 import React from 'react';
-import Nav from './components/HeadersFooters/Nav/index.js';
-import View from './components/View/index.js';
-import Footer from "./components/HeadersFooters/Footer/index.js";
+// import Nav from './components/HeadersFooters/Nav/index.js';
+// import View from './components/View/index.js';
+// import Footer from "./components/HeadersFooters/Footer/index.js";
 // // import './App.css';
 import Clouds1 from './assets/videos/clouds1.mp4';
 function App() {
