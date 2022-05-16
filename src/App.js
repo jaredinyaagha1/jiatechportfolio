@@ -17,14 +17,15 @@ function App() {
 
   return (
     <div className="App">
-      {/* <Nav /> */}
+      {/* <Nav />
       <video id="background-video" autoPlay loop muted>
         <source src={Clouds1} type="video/mp4" />
       </video>
-      {/* <main>
+      <main>
         <View />
       </main>
       <Footer /> */}
+      welp
     </div>
   );
 }
