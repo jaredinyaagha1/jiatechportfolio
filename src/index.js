@@ -4,7 +4,7 @@ import App from './App';
 // import './index.scss';
 
 // Importing the Bootstrap CSS
-// import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 // const cool = require('cool-ascii-faces');
 // const dotenv = require('dotenv');
