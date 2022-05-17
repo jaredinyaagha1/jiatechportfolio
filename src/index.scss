@@ -1,0 +1,165 @@
+$lightShade: #F5F8F9;
+$lightAccent: #6BB2D8;
+$brandColor: #BD5862;
+$darkShade: #E68079;
+$darkAccent: #364594;
+
+.light-shade {
+    color: $lightShade;
+}
+
+.light-accent {
+    color: $lightAccent;
+}
+
+.brand-color {
+    background-color: $brandColor;
+    color: white;
+}
+
+.dark-shade {
+    color: $darkShade;
+}
+
+.dark-accent {
+    color: $darkAccent;
+}
+
+.card {
+    color: $lightShade;
+    border: none;
+    // border-radius: 50px;
+    // padding: 10px;
+    // margin: 10px;
+    // box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 80vw;
+
+}
+
+main {
+    margin: 0 auto;
+    max-width: 90%;
+    padding: 50px 30px;
+}
+
+nav {
+    height: 5vh;
+    width: 100vw;
+    font-size: 1.5rem;
+    display: flex;
+
+    .logo-container {
+        // flex: 1;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .links-container {
+        // flex: 1;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        right: 10vw;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+}
+
+.home-links {
+    background-color: none;
+}
+
+.project-image {
+    max-width: 300px;
+}
+
+.homePageLinks {
+    list-style: none;
+    padding: 0;
+    margin-top: 0;
+}
+
+.footerLinks {
+    list-style: none;
+    /* padding: 0;
+    margin-top: 0; */
+
+}
+
+.home-links {
+    margin-bottom: 30px;
+}
+
+// .logo-container {
+//     display: flex;
+//     justify-content: start;
+// }
+
+/* .home-icons {
+    max-width: ;
+} */
+/* nav {
+    position: relative;
+    font-family: cursive;
+    font-size: 2.5rem;
+    margin: 30px 20px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: none;
+}
+
+li {
+    display: inline-block;
+    margin: 0 10px;
+} */
+#background-video {
+
+
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+
+@media (max-width: 750px) {
+    #background-video {
+        height: 100vh;
+        width: 100vw;
+    }
+
+    .card {
+        // height: 50vh;
+        width: 80vw;
+        right: 3vw;
+    }
+
+    .profilePic {
+        height: 50%;
+    }
+
+    .project-image {
+        width: 100%
+    }
+
+    p {
+        font-size: 0.75rem;
+    }
+
+
+
+
+}
+
+@import '~bootstrap/scss/bootstrap.scss';
