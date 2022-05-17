@@ -1,7 +1,7 @@
 import profilePic from '../../../assets/images/blackGuy.jpg';
 import SocialLinks from '../../Links/SocialLinks/index.js';
 import { Container, Row, Col, Card } from 'react-bootstrap';
-import '../../../index.scss';
+// import '../../../index.scss';
 
 const Home = () => {
     // console.log(window.innerWidth)
