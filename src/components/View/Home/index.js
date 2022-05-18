@@ -1,5 +1,5 @@
 import profilePic from '../../../assets/images/blackGuy.jpg';
-import SocialLinks from '../../Links/SocialLinks/index.js';
+// import SocialLinks from '../../Links/SocialLinks/index.js';
 import { Container, Row, Col, Card } from 'react-bootstrap';
 import '../../../index.scss';
 
@@ -34,7 +34,8 @@ const Home = () => {
                             </Col>
                             <Col>
                                 <ul className='homePageLinks'>
-                                    <SocialLinks isHorizontal={false} isMobile={isMobile} />
+                                    {/* <SocialLinks isHorizontal={false} isMobile={isMobile} /> */}
+
                                 </ul>
                             </Col>
                         </Row>
