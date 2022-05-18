@@ -2,9 +2,11 @@ import React from 'react';
 import SocialLinks from '../../Links/SocialLinks/index.js';
 import { Row, Col, Container } from 'react-bootstrap';
 
+let isMobile;
+
 function Footer() {
     if (window.innerWidth < 400) {
-        var isMobile = true;
+        isMobile = true;
         // console.log('isMobile: ', isMobile);
     }
     else {

@@ -3,10 +3,11 @@ import SocialLinks from '../../Links/SocialLinks/index.js';
 import { Container, Row, Col, Card } from 'react-bootstrap';
 import '../../../index.scss';
 
+let isMobile;
 const Home = () => {
     // console.log(window.innerWidth)
     if (window.innerWidth < 400) {
-        var isMobile = true;
+        isMobile = true;
         // console.log('isMobile: ', isMobile);
     }
     else {
