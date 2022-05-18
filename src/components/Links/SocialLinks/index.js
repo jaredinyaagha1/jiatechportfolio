@@ -14,7 +14,7 @@ function SocialLinks(props) {
 
         {
             title: 'Email',
-            url: 'https://www.linkedin.com/in/jaredengineering/',
+            url: 'https://www.linkedin.com/in/jared-engineering/',
             icon: faEnvelope,
             cName: ''
         },
