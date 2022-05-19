@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
-import { faLinkedin, faGithub, faTwitter } from '@fortawesome/free-brands-svg-icons';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+// import { faLinkedin, faGithub, faTwitter } from '@fortawesome/free-brands-svg-icons';
 
 
 
@@ -15,23 +15,23 @@ function SocialLinks(props) {
         {
             title: 'Email',
             url: 'https://www.linkedin.com/in/jared-engineering/',
-            icon: faEnvelope,
+            // icon: faEnvelope,
             cName: ''
         },
         {
             title: 'LinkedIn',
             url: 'https://www.linkedin.com/in/jared-engineering/',
-            icon: faLinkedin,
+            // icon: faLinkedin,
             cName: ''
         }, {
             title: 'Github',
             url: 'https://github.com/jaredinyaagha1',
-            icon: faGithub,
+            // icon: faGithub,
             cName: ''
         }, {
             title: 'Twitter',
             url: 'https://twitter.com/jaredtweetstech',
-            icon: faTwitter,
+            // icon: faTwitter,
             cName: ''
         }
     ]);
@@ -45,7 +45,7 @@ function SocialLinks(props) {
                 {socialLinks.map((item, index) => (
                     <li key={index} className="px-2 d-inline-block" >
                         <a href={item.url}>
-                            <FontAwesomeIcon icon={item.icon} className='fa-3x dark-accent' />
+                            {/* <FontAwesomeIcon icon={item.icon} className='fa-3x dark-accent' /> */}
                         </a>
                     </li>
                 ))}
@@ -61,7 +61,7 @@ function SocialLinks(props) {
                 {socialLinks.map((item, index) => (
                     <li key={index} className="px-2 d-inline-block" >
                         <a href={item.url}>
-                            <FontAwesomeIcon icon={item.icon} className='fa-3x dark-accent' />
+                            {/* <FontAwesomeIcon icon={item.icon} className='fa-3x dark-accent' /> */}
                         </a>
                     </li>
                 ))}
@@ -77,7 +77,7 @@ function SocialLinks(props) {
                 {socialLinks.map((item, index) => (
                     <li key={index} className="px-2 d-inline-block" >
                         <a href={item.url}>
-                            <FontAwesomeIcon icon={item.icon} className='fa-3x dark-accent' />
+                            {/* <FontAwesomeIcon icon={item.icon} className='fa-3x dark-accent' /> */}
                         </a>
                     </li>
                 ))}
@@ -93,7 +93,7 @@ function SocialLinks(props) {
                 {socialLinks.map((item, index) => (
                     <li key={index} className="py-2" >
                         <a href={item.url}>
-                            <FontAwesomeIcon icon={item.icon} className='fa-3x dark-accent' />
+                            {/* <FontAwesomeIcon icon={item.icon} className='fa-3x dark-accent' /> */}
                         </a>
                     </li>
                 ))}
