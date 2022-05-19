@@ -21,7 +21,7 @@ function SocialLinks(props) {
         {
             title: 'LinkedIn',
             url: 'https://www.linkedin.com/in/jared-engineering/',
-            // icon: faLinkedin,
+            // icon: faEnvelope,
             cName: ''
         }, {
             title: 'Github',
@@ -45,7 +45,7 @@ function SocialLinks(props) {
                 {socialLinks.map((item, index) => (
                     <li key={index} className="px-2 d-inline-block" >
                         <a href={item.url}>
-                            {/* <FontAwesomeIcon icon={item.icon} className='fa-3x dark-accent' /> */}
+                            <img src="https://img.icons8.com/color/48/000000/linkedin.png" alt="linkedin" />
                         </a>
                     </li>
                 ))}
