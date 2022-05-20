@@ -29,17 +29,15 @@ const Home = () => {
                                 <p id='title3'> Novice Entrepreneur </p>
                             </Col>
                             <Col>
-                                <img className='profilePic' src={profilePic} alt='profile' />  {/* <-- add alt tag */}
+                                <img className='profilePic' src={profilePic} alt='profile' />
                                 <div> JARED INYA-AGHA </div>
                             </Col>
                             <Col>
                                 <ul className='homePageLinks'>
                                     <SocialLinks isHorizontal={false} isMobile={isMobile} />
-
                                 </ul>
                             </Col>
                         </Row>
-
                     </Container>
                 </Card.Body>
             </Card>

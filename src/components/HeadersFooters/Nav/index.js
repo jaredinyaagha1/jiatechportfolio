@@ -5,7 +5,7 @@ import { Col } from 'react-bootstrap';
 function Nav() {
 
     return (
-        <nav className="brand-color">
+        <nav className="brand-color p-4">
             {/* <Container> */}
             {/* <Row className='justify-content-between'> */}
             <Col className='logo-container'>
@@ -13,7 +13,7 @@ function Nav() {
             </Col>
             {/* </Container> */}
             {/* <Container> */}
-            <Col className='links-container'>
+            <Col className='links-container '>
                 <MenuLinks />
             </Col>
             {/* </Container> */}
