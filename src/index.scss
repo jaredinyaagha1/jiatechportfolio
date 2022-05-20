@@ -36,6 +36,10 @@ $darkAccent: #364594;
 
 }
 
+svg {
+    color: $darkAccent
+}
+
 main {
     margin: 0 auto;
     max-width: 90%;
