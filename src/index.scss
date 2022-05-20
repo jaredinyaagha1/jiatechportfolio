@@ -28,15 +28,9 @@ $darkAccent: #364594;
 .card {
     color: $lightShade;
     border: none;
-    // border-radius: 50px;
-    // padding: 10px;
-    // margin: 10px;
-    // box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     min-width: 80vw;
     min-height: 85vh;
-    // width: 80vw;
-    // height: 85vh;
-    margin-left: 4vw;
+    // margin-left: 3vw;
 }
 
 svg {
@@ -101,35 +95,25 @@ nav {
     margin-bottom: 30px;
 }
 
-// .profilePic {
-//     height: 50vh;
-//     width: 50vh;
-// }
-
-// .logo-container {
-//     display: flex;
-//     justify-content: start;
-// }
-
-/* .home-icons {
-    max-width: ;
-} */
-/* nav {
-    position: relative;
-    font-family: cursive;
-    font-size: 2.5rem;
-    margin: 30px 20px;
-    text-decoration: none;
+.profilePic {
+    // min-height: 50vh;
+    // min-width: 25vw;
+    max-width: 40rem;
 }
 
-nav a:hover {
-    text-decoration: none;
+.homeName {
+    h3 {
+        font-size: 2rem;
+        margin-bottom: 0;
+    }
+
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 0;
 }
 
-li {
-    display: inline-block;
-    margin: 0 10px;
-} */
+
+
 #background-video {
 
 
@@ -145,7 +129,7 @@ li {
 }
 
 
-@media (max-width: 750px) {
+@media (max-width: 767px) {
     #background-video {
         height: 100vh;
         width: 100vw;
@@ -154,12 +138,15 @@ li {
     .card {
         // height: 50vh;
         width: 80vw;
-        right: 8vw;
+        right: 4vw;
 
     }
 
     .profilePic {
-        height: 50%;
+        // height: 50%;
+        width: 15rem;
+        right: 3rem;
+        // max-width: 40rem;
     }
 
     .project-image {
@@ -170,9 +157,13 @@ li {
         font-size: 0.75rem;
     }
 
-    .links-container {
-        display: none;
+    .footerLinks {
+        // right: 30rem;
     }
+
+    // .links-container {
+    //     display: none;
+    // }
 
 
 

@@ -22,7 +22,7 @@ const Home = () => {
                 <Card.Body>
                     <Container fluid="md" className="py-5 text-center">
                         <Row>
-                            <Col>
+                            <Col className="homeName" >
                                 <p id='firstName'> JARED INYA-AGHA </p>
                                 <h3 className="dark-shade" id='title1'> FULL STACK WEB DEVELOPER </h3>
                                 <p id='title2'> Electrical, Computer, and Electronics Engineer </p>
@@ -30,7 +30,7 @@ const Home = () => {
                             </Col>
                             <Col>
                                 <img className='profilePic' src={profilePic} alt='profile' />
-                                <div> JARED INYA-AGHA </div>
+                                {/* <div> JARED INYA-AGHA </div> */}
                             </Col>
                             <Col>
                                 <ul className='homePageLinks'>

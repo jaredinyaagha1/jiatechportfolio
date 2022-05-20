@@ -19,7 +19,7 @@ function Footer() {
                 <Row>
                     <Col>
                         {/* <h1>Footer</h1> */}
-                        <ul className='footerLinks text-center'>
+                        <ul className='footerLinks'>
                             <SocialLinks isHorizontal={true} isMobile={isMobile} />
 
                         </ul>
