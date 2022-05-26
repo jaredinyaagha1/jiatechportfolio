@@ -32,7 +32,7 @@ const Home = () => {
                                 <img className='profilePic' src={profilePic} alt='profile' />
                                 {/* <div> JARED INYA-AGHA </div> */}
                             </Col>
-                            <Col>
+                            <Col className="pt-4">
                                 <ul className='homePageLinks'>
                                     <SocialLinks isHorizontal={false} isMobile={isMobile} />
                                 </ul>
