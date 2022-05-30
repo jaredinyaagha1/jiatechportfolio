@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { Button, Dropdown } from 'react-bootstrap';
+import { Link } from 'react-scroll';
+import { Dropdown } from 'react-bootstrap';
 // import Nav from "../../HeadersFooters/Nav/index.js";
 
 function MenuLinks(props) {
@@ -7,10 +8,12 @@ function MenuLinks(props) {
     const [menuLinks] = useState([
         {
             title: 'About',
+            id: 'about',
             url: '#',
             cName: 'light-shade'
         }, {
             title: 'Projects',
+            id: 'portfolio',
             url: '#',
             cName: 'light-shade '
         },
@@ -21,10 +24,12 @@ function MenuLinks(props) {
         // },
         {
             title: 'Contact Me',
+            id: 'contact',
             url: '#',
             cName: 'light-shade'
         }, {
             title: 'Resume',
+            id: 'resume',
             url: '#',
             cName: 'light-shade '
         }
@@ -43,9 +48,9 @@ function MenuLinks(props) {
                 </Dropdown.Toggle>
 
                 <Dropdown.Menu>
-                    <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
-                    <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
-                    <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+                    <Dropdown.Item href="#About">About</Dropdown.Item>
+                    <Dropdown.Item href="#/action-2">Projects</Dropdown.Item>
+                    <Dropdown.Item href="#/action-3">Contact Me</Dropdown.Item>
                 </Dropdown.Menu>
             </Dropdown>
             // <ul>
@@ -64,9 +69,19 @@ function MenuLinks(props) {
             <ul>
                 {menuLinks.map((item, index) => (
                     <li className="px-2 py-2 d-none d-md-inline-block " key={index}>
-                        <a className={item.cName} href={item.url}>
+                        {/* <a className={item.cName} href={item.url}>
                             {item.title}
-                        </a>
+                        </a> */}
+                        <Link
+                            activeClass="active"
+                            to={item.id}
+                            spy={true}
+                            smooth={true}
+                            offset={-100}
+                            duration={500}
+                            className={item.cName}>
+                            {item.title}
+                        </Link>
                     </li>
                 ))}
             </ul>

@@ -16,11 +16,11 @@ function View() {
             `}
 
             </style>
-            <Home />
-            <About />
-            <Portfolio />
+            <Home id="home" />
+            <About id="about" />
+            <Portfolio id="portfolio" />
             {/* <Services /> */}
-            <Contact />
+            <Contact id="contact" />
         </div>
     )
 }
