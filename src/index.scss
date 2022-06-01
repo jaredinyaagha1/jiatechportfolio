@@ -44,10 +44,11 @@ main {
 }
 
 nav {
-    height: 5vh;
+    height: 7.5vh;
     width: 100vw;
     font-size: 1.5rem;
     display: flex;
+    position: sticky;
 
     .logo-container {
         // flex: 1;
