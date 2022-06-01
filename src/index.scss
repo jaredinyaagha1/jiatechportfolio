@@ -34,7 +34,9 @@ $darkAccent: #364594;
 }
 
 svg {
-    color: $darkAccent
+    color: $darkAccent;
+    max-height: 4rem;
+    max-width: 4rem;
 }
 
 main {
@@ -76,7 +78,7 @@ nav {
 }
 
 .project-image {
-    max-width: 300px;
+    max-width: 20rem;
 }
 
 .homePageLinks {
@@ -99,7 +101,7 @@ nav {
 .profilePic {
     // min-height: 50vh;
     // min-width: 25vw;
-    max-width: 40rem;
+    max-width: 25rem;
 }
 
 .homeName {

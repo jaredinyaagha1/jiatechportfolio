@@ -1,4 +1,5 @@
 import React from 'react';
+import profilePic from '../../../assets/images/blackGuy.jpg';
 import { Form, Button, Container, Row, Col, Card } from 'react-bootstrap';
 
 function Contact() {
@@ -10,7 +11,7 @@ function Contact() {
                         <h1 id="contact" >Contact</h1>
                         <Row>
                             <Col>
-                                <img src="https://i.imgur.com/px6cNb.png" alt="contact" />
+                                <img className="profilePic" src={profilePic} alt="contact" />
                             </Col>
                             <Col>
                                 <Form>

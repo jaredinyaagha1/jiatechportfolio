@@ -1,5 +1,5 @@
 import React from 'react';
-import blackGuy1 from '../../../assets/images/BlackGuy1.jpg';
+import blackGuy from '../../../assets/images/blackGuy.jpg';
 import Resume from '../Resume/index.js';
 import { Container, Row, Col, Card } from 'react-bootstrap';
 
@@ -14,7 +14,7 @@ function About() {
                         <h1 id="about" >About</h1>
                         <Row className='row'>
                             <Col>
-                                <img className='profilePic' src={blackGuy1} alt='profile' />
+                                <img className='profilePic' src={blackGuy} alt='profile' />
                             </Col>
                             <Col>
                                 <p>
