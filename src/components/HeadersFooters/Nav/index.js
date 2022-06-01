@@ -4,7 +4,7 @@ import { Col } from 'react-bootstrap';
 
 let isMobile;
 function Nav() {
-    // console.log(window.innerWidth)
+    console.log(window.innerWidth)
     if (window.innerWidth < 400) {
         isMobile = true;
         console.log('isMobile: ', isMobile);
@@ -25,7 +25,9 @@ function Nav() {
             {/* </Container> */}
             {/* <Container> */}
             <Col className='links-container '>
+              <ul>
                 <MenuLinks isMobile={isMobile} />
+              </ul>
             </Col>
             {/* </Container> */}
             {/* </Row> */}

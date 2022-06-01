@@ -11,7 +11,7 @@ function About() {
             <Card>
                 <Card.Body>
                     <Container>
-                        <h1 id="About" >About</h1>
+                        <h1 id="about" >About</h1>
                         <Row className='row'>
                             <Col>
                                 <img className='profilePic' src={blackGuy1} alt='profile' />

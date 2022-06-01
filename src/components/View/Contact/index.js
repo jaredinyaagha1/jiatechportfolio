@@ -7,7 +7,7 @@ function Contact() {
             <Card>
                 <Card.Body>
                     <Container>
-                        <h1>Contact</h1>
+                        <h1 id="contact" >Contact</h1>
                         <Row>
                             <Col>
                                 <img src="https://i.imgur.com/px6cNb.png" alt="contact" />

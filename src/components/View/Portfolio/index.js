@@ -41,7 +41,7 @@ function Portfolio() {
             <Card>
                 <Card.Body>
                     <Container>
-                        <h1>Projects</h1>
+                        <h1 id="portfolio" >Projects</h1>
                         <Row xs={1} md={3} className="g-4">
 
                             {projects.map((project, idx) => (
