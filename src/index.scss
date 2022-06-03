@@ -35,8 +35,8 @@ $darkAccent: #364594;
 
 svg {
     color: $darkAccent;
-    max-height: 4rem;
-    max-width: 4rem;
+    max-height: 2rem;
+    max-width: 2rem;
 }
 
 main {
@@ -102,6 +102,10 @@ nav {
     // min-height: 50vh;
     // min-width: 25vw;
     max-width: 25rem;
+}
+
+.resumeButton {
+    min-width: 20rem;
 }
 
 .homeName {
