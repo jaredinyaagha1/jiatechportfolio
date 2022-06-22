@@ -52,11 +52,6 @@ $darkAccent: #364594;
     transform: translateY(-17%);
 }
 
-// .container__home {
-//     display: flex;
-//     align-items: center;
-// }
-
 .background-video {
 
     height: 100vh;
@@ -87,11 +82,11 @@ nav {
     z-index: 1;
     left: 50%;
     transform: translateX(-50%);
-    bottom: 2rem;
+    bottom: 1.5rem;
     display: flex;
     border-radius: 3rem;
     backdrop-filter: blur(15px);
-    min-width: 30rem;
+    min-width: 35rem;
 
     .logoCol {
         display: flex;
@@ -104,6 +99,11 @@ nav {
         justify-content: flex-end;
         align-items: center;
         right: 10vw;
+    }
+
+    svg {
+        max-height: 1.5rem;
+        max-width: 1.5rem;
     }
 
     a {
