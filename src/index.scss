@@ -1,3 +1,4 @@
+// -------------COLORS ----- //
 $lightShade: #F5F8F9;
 $lightAccent: #6BB2D8;
 $brandColor: #BD5862;
@@ -24,14 +25,31 @@ $darkAccent: #364594;
 .dark-accent {
     color: $darkAccent;
 }
+//---------------------------//
 
+//-------- GENERAL CSS ----- //
+
+//---------------------------//
+
+//-----DESKTOP PROPERTIES-----//
+
+//---------------------------//
+
+//-----TABLET PROPERTIES-----//
+
+//---------------------------//
+
+//-----MOBILE PROPERTIES-----//
+
+//---------------------------//
 .card {
     color: $lightShade;
     border: none;
     min-width: 80vw;
     min-height: 80vh;
-    margin-top: 6.5rem;
+    margin-top: 7.5rem;
     // margin-left: 3vw;
+    transform: translateY(-17%);
 }
 
 // .container__home {
@@ -60,21 +78,28 @@ main {
 
 nav {
     height: 7.5vh;
-    width: 100vw;
-    font-size: 1.5rem;
-    display: flex;
+    // width: max-content;
+    // width: 100vw;
+    // font-size: 1.5rem;
+    display: block;
+    // padding: 0.7rem 1.7rem;
     position: fixed;
     z-index: 1;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 2rem;
+    display: flex;
+    border-radius: 3rem;
+    backdrop-filter: blur(15px);
+    min-width: 30rem;
 
-    .logo-container {
-        // flex: 1;
+    .logoCol {
         display: flex;
         justify-content: flex-start;
         align-items: center;
     }
 
-    .links-container {
-        // flex: 1;
+    .linksCol {
         display: flex;
         justify-content: flex-end;
         align-items: center;
@@ -154,7 +179,9 @@ nav {
     max-width: 1.5rem;
 }
 
-
+.footer {
+    transform: translateY(-8rem)
+}
 
 
 @media (max-width: 767px) {

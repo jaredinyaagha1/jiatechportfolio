@@ -15,8 +15,8 @@ function Footer() {
     }
     return (
         <div>
-            <Container>
-                <Row>
+            {/* <Container> */}
+                <Row className= "footer">
                     <Col className='text-center'>
                         {/* <h1>Footer</h1> */}
                         <ul className='footerLinks'>
@@ -26,7 +26,7 @@ function Footer() {
                         Back to top <a href="#top">🎈</a>
                     </Col>
                 </Row>
-            </Container>
+            {/* </Container> */}
         </div>
     );
 }

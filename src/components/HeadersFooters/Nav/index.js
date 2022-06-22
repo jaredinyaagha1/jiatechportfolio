@@ -17,20 +17,14 @@ function Nav() {
 
     return (
         <nav className="brand-color p-4">
-            {/* <Container> */}
-            {/* <Row className='justify-content-between'> */}
-            <Col className='logo-container'>
+            <Col className='logoCol'>
                 <h1 className="navbar-logo">JARED I.A</h1>
             </Col>
-            {/* </Container> */}
-            {/* <Container> */}
-            <Col className='links-container '>
+            <Col className='linksCol'>
                 <ul>
                     <MenuLinks isMobile={isMobile} />
                 </ul>
             </Col>
-            {/* </Container> */}
-            {/* </Row> */}
         </nav>
     )
 }
