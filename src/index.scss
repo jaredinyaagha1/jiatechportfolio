@@ -138,10 +138,20 @@ nav {
     margin-bottom: 0;
 }
 
-svg {
+.socialSvg {
     color: $darkAccent;
     max-height: 5rem;
     max-width: 5rem;
+}
+
+.buttonSvg {
+    max-height: 1.5rem;
+    max-width: 1.5rem;
+}
+
+.menuSvg {
+    max-height: 1.5rem;
+    max-width: 1.5rem;
 }
 
 
