@@ -3,6 +3,7 @@ import SocialLinks from '../../Links/SocialLinks/index.js';
 import { Container, Row, Col, Card } from 'react-bootstrap';
 import '../../../index.scss';
 
+
 let isMobile;
 const Home = () => {
     // console.log(window.innerWidth)
@@ -16,32 +17,39 @@ const Home = () => {
     }
 
     return (
-
-        <div className="py-2">
-            <Card variant="sky" >
-                <Card.Body>
-                    <Container fluid="md" className="py-5 text-center">
+        <Card className="d-flex align-items-center justify-content-center">
+            <Container className="py-5 text-center">
+                <Row className="d-flex align-items-center justify-content-center">
+                    <Col className="homeName" >
+                        <h4 id='firstName'> JARED INYA-AGHA </h4>
+                        <h2 className="dark-shade title1" id='title1'> SOFTWARE ENGINEER </h2>
+                        <h4 className="title1"> ELECTRICAL ENGINEER </h4>
+                        <h4 className="title1"> ENTREPRENEUR </h4>
                         <Row>
-                            <Col className="homeName" >
-                                <p id='firstName'> JARED INYA-AGHA </p>
-                                <h3 className="dark-shade" id='title1'> FULL STACK WEB DEVELOPER </h3>
-                                <p id='title2'> Electrical, Computer, and Electronics Engineer </p>
-                                <p id='title3'> Novice Entrepreneur </p>
+                            <Col>
+                                <a href="#">LET'S TALK</a>
                             </Col>
                             <Col>
-                                <img className='profilePic' src={profilePic} alt='profile' />
-                                {/* <div> JARED INYA-AGHA </div> */}
-                            </Col>
-                            <Col className="pt-4">
-                                <ul className='homePageLinks'>
-                                    <SocialLinks isHorizontal={false} isMobile={isMobile} />
-                                </ul>
+                                <a href="#">DOWNLOAD <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
+                                    <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z" />
+                                    <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z" />
+                                </svg>
+                                </a>
                             </Col>
                         </Row>
-                    </Container>
-                </Card.Body>
-            </Card>
-        </div>
+                    </Col>
+                    <Col>
+                        <img className='profilePic' src={profilePic} alt='profile' />
+                        {/* <div> JARED INYA-AGHA </div> */}
+                    </Col>
+                    <Col className="pt-4">
+                        <ul className='homePageLinks'>
+                            <SocialLinks isHorizontal={false} isMobile={isMobile} />
+                        </ul>
+                    </Col>
+                </Row>
+            </Container>
+        </Card>
     )
 }
 export default Home;

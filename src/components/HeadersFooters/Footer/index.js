@@ -11,16 +11,16 @@ function Footer() {
     }
     else {
         isMobile = false;
-        // console.log('isMobile: ', isMobile);
+        console.log('isMobile: ', isMobile);
     }
     return (
         <div>
             <Container>
                 <Row>
-                    <Col>
+                    <Col className='text-center'>
                         {/* <h1>Footer</h1> */}
                         <ul className='footerLinks'>
-                            <SocialLinks isHorizontal={true} isMobile={isMobile} />
+                            <SocialLinks isHorizontal={true} isMobile={false} />
 
                         </ul>
                         Back to top <a href="#top">🎈</a>

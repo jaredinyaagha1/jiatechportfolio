@@ -12,22 +12,22 @@ function App() {
   return (
     <div className="App">
       <Nav />
-      <video id="background-video" autoPlay loop muted>
+      <video className="background-video" autoPlay loop muted>
         <source src={Clouds1} type="video/mp4" />
       </video>
       <main>
-<style type='text/css'>
-    {`
+        <style type='text/css'>
+          {`
 .card {
     background-color: rgba(0, 0, 0, 0.1);
 }
 `}
 
-</style>
-<Home id="home" />
-<About id="about" />
-<Portfolio id="portfolio" />
-<Contact id="contact" />
+        </style>
+        <Home id="home" />
+        <About id="about" />
+        <Portfolio id="portfolio" />
+        <Contact id="contact" />
       </main>
       <Footer />
     </div>

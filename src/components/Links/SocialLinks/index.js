@@ -50,7 +50,7 @@ function SocialLinks(props) {
 
     const { isHorizontal, isMobile } = props;
     if (isHorizontal && isMobile) {
-        console.log(props)
+        // console.log(props)
 
         return (
             <>
@@ -66,12 +66,12 @@ function SocialLinks(props) {
     }
 
     else if (isHorizontal && !isMobile) {
-        console.log(props)
+        // console.log(props)
 
         return (
             <>
                 {socialLinks.map((item, index) => (
-                    <li key={index} className="px-2 d-inline-block" >
+                    <li key={index} className="px-2 d-inline" >
                         <a href={item.url}>
                             {item.icon}
                             {/* <FontAwesomeIcon icon={item.icon} className='fa-3x dark-accent' /> */}
