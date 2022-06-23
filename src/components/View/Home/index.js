@@ -19,7 +19,7 @@ const Home = () => {
     }
 
     return (
-        <Card className="homePage d-flex align-items-center justify-content-center">
+        <Card className="view d-flex align-items-center justify-content-center">
             <Container className="py-5 text-center">
                 <Row className="d-flex align-items-center justify-content-center">
                     <Col className="homeName" >

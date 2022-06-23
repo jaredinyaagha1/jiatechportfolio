@@ -5,36 +5,36 @@ import { Form, Button, Container, Row, Col, Card } from 'react-bootstrap';
 function Contact() {
     return (
         <div className="py-2">
-            <Card>
-                <Card.Body>
-                    <Container>
-                        <h1 id="contact" >Contact</h1>
-                        <Row>
-                            <Col>
-                                <img className="profilePic" src={profilePic} alt="contact" />
-                            </Col>
-                            <Col>
-                                <Form>
-                                    <Form.Group className="mb-3" controlId="formBasicName">
-                                        <Form.Label>Name</Form.Label>
-                                        <Form.Control type="name" placeholder="Enter Name" />
-                                    </Form.Group>
-                                    <Form.Group className="mb-3" controlId="formBasicEmail">
-                                        <Form.Label>Email</Form.Label>
-                                        <Form.Control type="Email" placeholder="Enter Email" />
-                                    </Form.Group>
-                                    <Form.Group className="mb-3" controlId="formBasicSubject">
-                                        <Form.Label>Subject</Form.Label>
-                                        <Form.Control type="Subject" placeholder="Enter Subject" />
-                                    </Form.Group>
-                                    <Button variant="primary" type="submit">
-                                        Submit
-                                    </Button>
-                                </Form>
-                            </Col>
-                        </Row>
-                    </Container>
-                </Card.Body>
+            <Card className="view d-flex align-items-center justify-content-center">
+                {/* <Card.Body> */}
+                <Container>
+                    <h1 id="contact" >Contact</h1>
+                    <Row className=" d-flex align-items-center justify-content-center">
+                        <Col>
+                            <img className="profilePic" src={profilePic} alt="contact" />
+                        </Col>
+                        <Col>
+                            <Form>
+                                <Form.Group className="mb-3" controlId="formBasicName">
+                                    <Form.Label>Name</Form.Label>
+                                    <Form.Control type="name" placeholder="Enter Name" />
+                                </Form.Group>
+                                <Form.Group className="mb-3" controlId="formBasicEmail">
+                                    <Form.Label>Email</Form.Label>
+                                    <Form.Control type="Email" placeholder="Enter Email" />
+                                </Form.Group>
+                                <Form.Group className="mb-3" controlId="formBasicSubject">
+                                    <Form.Label>Subject</Form.Label>
+                                    <Form.Control type="Subject" placeholder="Enter Subject" />
+                                </Form.Group>
+                                <Button variant="primary" type="submit">
+                                    Submit
+                                </Button>
+                            </Form>
+                        </Col>
+                    </Row>
+                </Container>
+                {/* </Card.Body> */}
             </Card>
 
             {/* <div>

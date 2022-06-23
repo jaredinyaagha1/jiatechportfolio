@@ -38,34 +38,23 @@ function Portfolio() {
     ]);
     return (
         <div className="py-2">
-            <Card>
-                <Card.Body>
-                    <Container>
-                        <h1 id="portfolio" >Projects</h1>
-                        <Row xs={1} md={3} className="g-4">
+            <Card className="view d-flex align-items-center justify-content-center">
+                {/* <Card.Body> */}
+                <Container>
+                    <h1 id="portfolio" >Projects</h1>
+                    <Row xs={1} md={3} className="g-4">
 
-                            {projects.map((project, idx) => (
-                                <Project
-                                    project={project}
-                                    key={"project" + idx}
-                                />
-                            ))}
-                        </Row>
-                    </Container>
-                </Card.Body>
+                        {projects.map((project, idx) => (
+                            <Project
+                                project={project}
+                                key={"project" + idx}
+                            />
+                        ))}
+                    </Row>
+                </Container>
+                {/* </Card.Body> */}
             </Card>
 
-
-            {/* <div className="flex-row">
-                <h1>Projects</h1>
-                {projects.map((project, index) => (
-                    <Project
-                        project={project}
-                        key={"project" + index}
-                    />
-                ))}
-                <h3>Portfolio</h3>
-            </div> */}
         </div>
     );
 };

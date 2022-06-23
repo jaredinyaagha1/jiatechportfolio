@@ -18,7 +18,7 @@ function App() {
       <main>
         <style type='text/css'>
           {`
-.card {
+.view {
     background-color: rgba(0, 0, 0, 0.1);
 }
 `}

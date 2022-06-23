@@ -95,7 +95,17 @@ nav {
 
 }
 
-.card {
+.view {
+
+    .miniCard {
+        // display: block;
+        // justify-content: space-between;
+        max-width: 12.5rem;
+        min-height: 12.5rem;
+        // margin-right: 2rem;
+    }
+
+    background-color: rgba(0, 0, 0, 0.1);
     color: $lightShade;
     border: none;
     min-width: 80vw;
