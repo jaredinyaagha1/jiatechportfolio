@@ -103,10 +103,20 @@ nav {
     margin-top: 15vh;
     transform: translateY(-17%);
 
-    h2 {}
+    h2 {
+        font-size: 2em;
+    }
+
+    h4 {
+        font-size: 1em;
+    }
 
     .btn {
         min-width: 10rem;
+        min-height: 3.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
 
         svg {
             max-width: 1.5rem;

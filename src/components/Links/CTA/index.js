@@ -4,7 +4,7 @@ import { Row, Col, Button } from 'react-bootstrap'
 
 const CTA = () => {
     return (
-        <Row>
+        <Row className="mt-5">
             <Col>
                 <Button href="#contact">LET'S TALK</Button>
             </Col>
