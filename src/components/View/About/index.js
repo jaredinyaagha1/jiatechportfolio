@@ -1,6 +1,7 @@
 import React from 'react';
 import blackGuy from '../../../assets/images/blackGuy.jpg';
-import Resume from '../Resume/index.js';
+import CTA from '../../Links/CTA/index.js'
+// import Resume from '../Resume/index.js';
 import { Container, Row, Col, Card } from 'react-bootstrap';
 
 
@@ -24,7 +25,8 @@ function About() {
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                                 </p>
 
-                                <Resume />
+                                {/* <Resume /> */}
+                                <CTA />
                             </Col>
 
                         </Row>

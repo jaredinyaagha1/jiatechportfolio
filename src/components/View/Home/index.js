@@ -1,7 +1,9 @@
 import profilePic from '../../../assets/images/blackGuy.jpg';
 import SocialLinks from '../../Links/SocialLinks/index.js';
-import { Container, Row, Col, Card, Button } from 'react-bootstrap';
+import CTA from '../../Links/CTA/index.js';
+import { Container, Row, Col, Card } from 'react-bootstrap';
 import '../../../index.scss';
+
 
 
 let isMobile;
@@ -25,7 +27,8 @@ const Home = () => {
                         <h2 className="dark-shade title1" id='title1'> SOFTWARE ENGINEER </h2>
                         <h4 className="title1"> ELECTRICAL ENGINEER </h4>
                         <h4 className="title1"> ENTREPRENEUR </h4>
-                        <Row>
+                        <CTA />
+                        {/* <Row>
                             <Col>
                                 <Button href="#contact">LET'S TALK</Button>
                             </Col>
@@ -36,7 +39,7 @@ const Home = () => {
                                 </svg>
                                 </Button>
                             </Col>
-                        </Row>
+                        </Row> */}
                     </Col>
                     <Col>
                         <img className='profilePic' src={profilePic} alt='profile' />
