@@ -1,6 +1,6 @@
 import React from 'react';
 import SocialLinks from '../../Links/SocialLinks/index.js';
-import { Row, Col, Container } from 'react-bootstrap';
+import { Row, Col } from 'react-bootstrap';
 
 let isMobile;
 
@@ -15,18 +15,16 @@ function Footer() {
     }
     return (
         <div>
-            {/* <Container> */}
-                <Row className= "footer">
-                    <Col className='text-center'>
-                        {/* <h1>Footer</h1> */}
-                        <ul className='footerLinks'>
-                            <SocialLinks isHorizontal={true} isMobile={false} />
+            <Row className="footer">
+                <Col className='text-center'>
+                    {/* <h1>Footer</h1> */}
+                    <ul className='footerLinks'>
+                        <SocialLinks isHorizontal={true} isMobile={false} />
 
-                        </ul>
-                        Back to top <a href="#top">🎈</a>
-                    </Col>
-                </Row>
-            {/* </Container> */}
+                    </ul>
+                    Back to top <a href="#top">🎈</a>
+                </Col>
+            </Row>
         </div>
     );
 }

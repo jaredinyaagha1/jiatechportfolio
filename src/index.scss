@@ -103,6 +103,8 @@ nav {
     margin-top: 15vh;
     transform: translateY(-17%);
 
+    h2 {}
+
     .btn {
         min-width: 10rem;
 
@@ -147,7 +149,7 @@ nav {
 }
 
 .resumeButton {
-    min-width: 20rem;
+    min-width: 12rem;
 }
 
 .resumeButtonSVG {
