@@ -1,5 +1,5 @@
 import React from 'react';
-import MenuLinks from '../../Links/MenuLinks/index.js';
+import NavLinks from '../../Links/NavLinks/index.js';
 import { Col } from 'react-bootstrap';
 
 let isMobile;
@@ -22,7 +22,7 @@ function Nav() {
             </Col>
             <Col className='linksCol'>
                 <ul>
-                    <MenuLinks isMobile={isMobile} />
+                    <NavLinks isMobile={isMobile} />
                 </ul>
             </Col>
         </nav>

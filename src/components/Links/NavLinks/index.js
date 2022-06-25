@@ -3,9 +3,9 @@ import { Link } from 'react-scroll';
 import { Dropdown } from 'react-bootstrap';
 // import Nav from "../../HeadersFooters/Nav/index.js";
 
-function MenuLinks(props) {
+function NavLinks(props) {
 
-    const [menuLinks] = useState([
+    const [NavLinks] = useState([
         {
             title: <svg xmlns="http://www.w3.org/2000/svg" width="" height="" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
                 <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
@@ -63,7 +63,7 @@ function MenuLinks(props) {
                 </Dropdown.Menu>
             </Dropdown>
             // <ul>
-            //     {menuLinks.map((item, index) => (
+            //     {NavLinks.map((item, index) => (
             //         <li className="px-2 py-2 d-none d-md-inline-block " key={index}>
             //             <a className={item.cName} href={item.url}>
             //                 {item.title}
@@ -76,7 +76,7 @@ function MenuLinks(props) {
     else {
         return (
             <ul>
-                {menuLinks.map((item, index) => (
+                {NavLinks.map((item, index) => (
                     <li className="px-2 py-2 d-none d-md-inline-block " key={index}>
                         <Link
                             activeClass="active"
@@ -94,4 +94,4 @@ function MenuLinks(props) {
         );
     }
 };
-export default MenuLinks;
+export default NavLinks;

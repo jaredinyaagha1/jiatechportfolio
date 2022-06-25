@@ -5,7 +5,7 @@ import { Form, Button, Container, Row, Col, Card } from 'react-bootstrap';
 function Contact() {
     return (
         <div className="py-2">
-            <Card className="view d-flex align-items-center justify-content-center">
+            <Card className="view contactView d-flex align-items-center justify-content-center">
                 {/* <Card.Body> */}
                 <Container>
                     <h1 id="contact" >Contact</h1>
@@ -19,13 +19,13 @@ function Contact() {
                                     <Form.Label>Name</Form.Label>
                                     <Form.Control type="name" placeholder="Enter Name" />
                                 </Form.Group>
-                                <Form.Group className="mb-3" controlId="formBasicEmail">
-                                    <Form.Label>Email</Form.Label>
-                                    <Form.Control type="Email" placeholder="Enter Email" />
-                                </Form.Group>
                                 <Form.Group className="mb-3" controlId="formBasicSubject">
                                     <Form.Label>Subject</Form.Label>
                                     <Form.Control type="Subject" placeholder="Enter Subject" />
+                                </Form.Group>
+                                <Form.Group className="mb-3" controlId="formBasicEmail">
+                                    <Form.Label>Email</Form.Label>
+                                    <Form.Control type="Email" placeholder="Enter Email" />
                                 </Form.Group>
                                 <Button variant="primary" type="submit">
                                     Submit

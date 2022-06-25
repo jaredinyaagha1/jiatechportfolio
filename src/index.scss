@@ -97,14 +97,6 @@ nav {
 
 .view {
 
-    .miniCard {
-        // display: block;
-        // justify-content: space-between;
-        max-width: 12.5rem;
-        min-height: 12.5rem;
-        // margin-right: 2rem;
-    }
-
     background-color: rgba(0, 0, 0, 0.1);
     color: $lightShade;
     border: none;
@@ -112,6 +104,23 @@ nav {
     min-height: 80vh;
     margin-top: 15vh;
     transform: translateY(-17%);
+
+    .miniCard {
+        // display: block;
+        // justify-content: space-between;
+        max-width: 12.5rem;
+        min-height: 12.5rem;
+        // margin-right: 2rem;
+        background-color: $darkShade;
+
+        svg {
+            max-width: 4rem;
+            max-height: 4rem;
+        }
+    }
+
+
+
 
     h2 {
         font-size: 2em;
@@ -139,6 +148,17 @@ nav {
     }
 
 
+}
+
+.contactView {
+    max-height: 1rem;
+    background-color: rgba(0, 0, 0, 0.1);
+    color: $lightShade;
+    border: none;
+    min-width: 80vw;
+    max-height: max-content;
+    margin-top: 15vh;
+    transform: translateY(-17%);
 }
 
 .project-image {

@@ -1,6 +1,7 @@
 import React from 'react';
 import blackGuy from '../../../assets/images/blackGuy.jpg';
 import CTA from '../../Links/CTA/index.js'
+import AboutLinks from '../../Links/AboutLinks/index.js'
 // import Resume from '../Resume/index.js';
 import { Container, Row, Col, Card } from 'react-bootstrap';
 
@@ -18,26 +19,33 @@ function About() {
                             <img className='profilePic' src={blackGuy} alt='profile' />
                         </Col>
                         <Col>
-                            <Row className="justify-content-between mb-5">
-                                <Card className="miniCard">
-                                    goooal
+                            <Row>
+                                {/* <Card className="miniCard">
+                                    <h4 className="dark-accent">Years of Full Time Engineering Experience:</h4>
+                                    <h1 className="dark-accent">2</h1>
+
                                 </Card>
                                 <Card className="miniCard">
-                                    goooal
+                                    Vichyssoise bithces
                                 </Card>
                                 <Card className="miniCard">
-                                    goooal
-                                </Card>
+                                    goooal crew gang
+                                </Card> */}
+                                <AboutLinks />
                             </Row>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            </p>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            </p>
+                            <Row>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                </p>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                </p>
+                            </Row>
+                            <Row>
+                                <CTA />
+                            </Row>
 
                             {/* <Resume /> */}
-                            <CTA />
                         </Col>
 
                     </Row>
