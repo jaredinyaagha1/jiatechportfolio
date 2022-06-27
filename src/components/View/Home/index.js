@@ -19,7 +19,7 @@ const Home = () => {
     }
 
     return (
-        <Card className="view d-flex align-items-center justify-content-center">
+        <Card id="home" className="view d-flex align-items-center justify-content-center">
             <Container className="py-5 text-center">
                 <Row className="d-flex align-items-center justify-content-center">
                     <Col className="homeName" >
@@ -27,7 +27,9 @@ const Home = () => {
                         <h2 className="dark-shade title1" id='title1'> SOFTWARE ENGINEER </h2>
                         <h4 className="title1"> ELECTRICAL ENGINEER </h4>
                         <h4 className="title1"> ENTREPRENEUR </h4>
+                        <div className='mt-5'>                            
                         <CTA />
+                        </div>
                         {/* <Row>
                             <Col>
                                 <Button href="#contact">LET'S TALK</Button>

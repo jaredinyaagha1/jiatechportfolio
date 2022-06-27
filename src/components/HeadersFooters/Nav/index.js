@@ -1,6 +1,7 @@
 import React from 'react';
 import NavLinks from '../../Links/NavLinks/index.js';
 import { Col } from 'react-bootstrap';
+import { Link } from 'react-scroll'
 
 let isMobile;
 function Nav() {
@@ -18,7 +19,18 @@ function Nav() {
     return (
         <nav className="brand-color p-4">
             <Col className='logoCol'>
-                <h1 className="navbar-logo">JARED I.A</h1>
+                {/* <a href="#" className="navbar-logo light-shade">JARED I.A</a> */}
+                <Link
+                    activeClass="active"
+                    // to="#top"
+                    to="home"
+                    spy={true}
+                    smooth={true}
+                    offset={-90}
+                    duration={500}
+                    className="navbar-logo light-shade">
+                    JARED.IA
+                </Link>
             </Col>
             <Col className='linksCol'>
                 <ul>
