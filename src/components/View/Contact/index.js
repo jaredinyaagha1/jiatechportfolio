@@ -5,10 +5,10 @@ import { Form, Button, Container, Row, Col, Card } from 'react-bootstrap';
 function Contact() {
     return (
         <div className="py-2">
-            <Card className="view contactView d-flex align-items-center justify-content-center">
+            <Card id="contact" className="view contactView d-flex align-items-center justify-content-center">
                 {/* <Card.Body> */}
                 <Container>
-                    <h1 id="contact" >Contact</h1>
+                    <h1 >Contact</h1>
                     <Row className=" d-flex align-items-center justify-content-center">
                         <Col>
                             <img className="profilePic" src={profilePic} alt="contact" />
@@ -25,7 +25,7 @@ function Contact() {
                                 </Form.Group>
                                 <Form.Group className="mb-3" controlId="formBasicEmail">
                                     <Form.Label>Email</Form.Label>
-                                    <Form.Control type="Email" placeholder="Enter Email" />
+                                    <Form.Control className="formEmail" type="Email" />
                                 </Form.Group>
                                 <Button variant="primary" type="submit">
                                     Submit

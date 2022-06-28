@@ -83,7 +83,7 @@ function NavLinks(props) {
                             to={item.id}
                             spy={true}
                             smooth={true}
-                            offset={-90}
+                            offset={-50}
                             duration={500}
                             className={item.cName}>
                             {item.title}

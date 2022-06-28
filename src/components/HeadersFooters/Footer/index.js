@@ -20,7 +20,6 @@ function Footer() {
                     {/* <h1>Footer</h1> */}
                     <ul className='footerLinks'>
                         <SocialLinks isHorizontal={true} isMobile={false} />
-
                     </ul>
                     Back to top <a href="#top">🎈</a>
                 </Col>
