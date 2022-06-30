@@ -8,7 +8,7 @@ function Contact() {
             <Card id="contact" className="view contactView d-flex align-items-center justify-content-center">
                 {/* <Card.Body> */}
                 <Container>
-                    <h1 >Contact</h1>
+                    <h1 className="dark-shade">CONTACT</h1>
                     <Row className=" d-flex align-items-center justify-content-center">
                         <Col>
                             <img className="profilePic" src={profilePic} alt="contact" />

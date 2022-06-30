@@ -161,16 +161,16 @@ nav {
     height: 10rem;
 }
 
-// .contactView {
-    // max-height: 1rem;
-    // background-color: rgba(0, 0, 0, 0.1);
-    // color: $lightShade;
-    // border: none;
-    // min-width: 80vw;
-    // max-height: max-content;
-    // margin-top: 15vh;
-    // transform: translateY(-17%);
-// }
+.contactView {
+    max-height: 1rem;
+    background-color: rgba(0, 0, 0, 0.1);
+    color: $lightShade;
+    border: none;
+    min-width: 80vw;
+    max-height: max-content;
+    margin-top: 15vh;
+    transform: translateY(-17%);
+}
 
 .project-image {
     max-width: 20rem;

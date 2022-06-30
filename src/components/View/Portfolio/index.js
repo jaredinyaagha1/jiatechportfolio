@@ -41,7 +41,7 @@ function Portfolio() {
             <Card className="view d-flex align-items-center justify-content-center">
                 {/* <Card.Body> */}
                 <Container>
-                    <h1 id="portfolio" >Projects</h1>
+                    <h1 className="dark-shade" id="portfolio" >PROJECTS</h1>
                     <Row xs={1} md={3} className="g-4">
 
                         {projects.map((project, idx) => (
