@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="App">
       <Nav />
-      {/* <video className="background-video" autoPlay loop muted>
+      <video className="background-video" autoPlay loop muted>
         <source src={Clouds1} type="video/mp4" />
       </video>
       <main>
@@ -29,7 +29,7 @@ function App() {
         <Portfolio id="portfolio" />
         <Contact id="contact" />
       </main>
-      <Footer /> */}
+      <Footer />
     </div>
   );
 }
